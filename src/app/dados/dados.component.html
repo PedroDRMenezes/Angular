@@ -1,0 +1,26 @@
+<div *ngFor="let item of users">
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Usuario {{item.id}}</h3>
+            <p>Nome: {{item.name}}</p>
+            <p>UserName: {{item.username}}</p>
+            <p>Email: {{item.email}}</p>
+            <p>Telefone: {{item.phone}}</p>
+            <p>Site: {{item.website}}</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Endereço</h3>
+            <p>Cidade: {{item.address.city}}</p>
+            <p>Rua: {{item.address.street}}</p>
+            <p>Apartamento: {{item.address.suite}}</p>
+            <p>CEP: {{item.address.zipcode}}</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Empresa</h3>
+            <p>Nome: {{item.company.name}}</p>
+            <p>Qualidades: {{item.company.catchPhrase}}</p>
+            <p>Area: {{item.company.bs}}</p>
+        </div>
+    </div>
+    <hr>
+</div>

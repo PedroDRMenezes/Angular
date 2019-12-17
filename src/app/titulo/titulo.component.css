@@ -1,0 +1,10 @@
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: beige;
+    font-size: 400%;
+    height: 120%;
+    padding-top: 1%;
+
+}
