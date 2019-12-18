@@ -21,7 +21,6 @@ export class DadosComponent implements OnInit {
   pegarTudo() {
     this.userService.getAll().subscribe((bla: User[]) => {
       this.users = bla;
-      console.log(bla);
 
     });
   }

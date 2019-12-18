@@ -1,8 +1,14 @@
-<div *ngFor="let item of users">
+<br />
+<div *ngFor="let item of users" class="bla">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>{{item.name}}</h1>
+
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-4">
-            <h3>Usuario {{item.id}}</h3>
-            <p>Nome: {{item.name}}</p>
+            <h3>Usuario - {{item.id}}</h3>
             <p>UserName: {{item.username}}</p>
             <p>Email: {{item.email}}</p>
             <p>Telefone: {{item.phone}}</p>

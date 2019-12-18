@@ -1,0 +1,11 @@
+<div *ngFor=" let tf of tarefas">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Responsavel pela Tafera - {{tf.userId}}</h3>
+            <p>Numero da Tarefa: {{tf.id}}</p>
+            <p>Titulo: {{tf.title}}</p>
+            <p>Status: {{tf.completed}}</p>
+            <hr>
+        </div>
+    </div>
+</div>
